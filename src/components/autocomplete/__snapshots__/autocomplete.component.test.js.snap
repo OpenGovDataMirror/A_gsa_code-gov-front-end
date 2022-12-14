@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - Autocomplete should render correctly 1`] = `
+<ul
+  className="autocomplete bg-white border-1px border-primary margin-top-1px text-left z-100 padding-left-0"
+>
+  <li
+    key="/to-1"
+  >
+    <Connect(CustomLinkComponent)
+      className="display-block padding-1 text-no-underline"
+      onClick={[Function]}
+      to="/to-1"
+    >
+      <i
+        aria-label="search"
+        className="icon icon-search"
+      />
+      <span
+        className="text-black font-body-3xs padding-left-2px overflow-hidden text-no-wrap width-full display-inline-block text-bottom"
+      >
+        text-1
+      </span>
+    </Connect(CustomLinkComponent)>
+  </li>
+  <li
+    key="/to-2"
+  >
+    <Connect(CustomLinkComponent)
+      className="display-block padding-1 text-no-underline"
+      onClick={[Function]}
+      to="/to-2"
+    >
+      <i
+        aria-label="search"
+        className="icon icon-search"
+      />
+      <span
+        className="text-black font-body-3xs padding-left-2px overflow-hidden text-no-wrap width-full display-inline-block text-bottom"
+      >
+        text-2
+      </span>
+    </Connect(CustomLinkComponent)>
+  </li>
+</ul>
+`;

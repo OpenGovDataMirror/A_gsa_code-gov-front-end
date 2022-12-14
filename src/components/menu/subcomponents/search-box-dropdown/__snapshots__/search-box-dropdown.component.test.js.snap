@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - Menu - SearchBoxDropdown render should render correctly 1`] = `
+<div
+  className="search-box show-w-gt-800 active"
+>
+  <div
+    style={
+      Object {
+        "marginLeft": "auto",
+        "position": "relative",
+        "width": "calc(36rem + 42px)",
+      }
+    }
+  >
+    <i
+      aria-label="cancel"
+      className="icon icon-cancel close-search-box-button"
+      onClick={[Function]}
+    />
+    <SearchBox
+      aria-label="search"
+      inputType="text"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onSubmit={[Function]}
+      placeholder="Search Projects..."
+    />
+  </div>
+</div>
+`

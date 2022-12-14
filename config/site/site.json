@@ -1,0 +1,425 @@
+{
+  "title": "code.gov",
+  "api": {
+    "base": "https://api.code.gov/",
+    "key": "OC457325hyT6DpFm5HBBZ1i8SR6gtp5U2CdqtHZQ"
+  },
+  "twitter": {
+    "handle": "codedotgov"
+  },
+  "search": {
+    "affiliate": "codegov",
+    "action": "https://search.usa.gov/search",
+    "placeholder": "Search Code.gov..."
+  },
+  "content": {
+    "header": {
+      "fork_me_url": "https://github.com/GSA/code-gov-front-end",
+      "logos": {
+        "dark": "./assets/img/logos/code-gov-dark.svg",
+        "light": "./assets/img/logos/code-gov-light.svg"
+      },
+      "menu": [
+        {
+          "name": "AGENCIES",
+          "url": "/agencies"
+        },
+        {
+          "name": "GUIDANCE",
+          "links": [
+            {
+              "name": "Agency Compliance",
+              "url": "/agency-compliance/compliance/dashboard"
+            },
+            {
+              "name": "How to Procure Software",
+              "url": "/agency-compliance/compliance/procurement"
+            },
+            {
+              "name": "How to Inventory Code",
+              "url": "/agency-compliance/compliance/inventory-code"
+            }
+          ]
+        }
+      ],
+      "mobile_menu": [
+        {
+          "name": "About",
+          "links": [
+            {
+              "name": "Overview",
+              "url": "/federal-agencies/overview/introduction"
+            },
+            {
+              "name": "Compliance",
+              "url": "/federal-agencies/compliance/dashboard"
+            },
+            {
+              "name": "Open Source Pilot",
+              "url": "/federal-agencies/open-source/introduction"
+            },
+            {
+              "name": "Source Code Policy",
+              "url": "https://sourcecode.cio.gov/"
+            }
+          ]
+        },
+        {
+          "name": "Projects",
+          "url": "/browse-projects?page=1&size=10&sort=data_quality"
+        },
+        {
+          "name": "Federal Agencies",
+          "links": [
+            {
+              "name": "How to Inventory Code",
+              "url": "/federal-agencies/compliance/inventory-code"
+            },
+            {
+              "name": "Compliance Dashboard",
+              "url": "/federal-agencies/compliance/dashboard"
+            }
+          ]
+        },
+        {
+          "name": "Social",
+          "links": [
+            {
+              "name": "code.gov Repo",
+              "url": "http://github.com/GSA/code-gov"
+            },
+            {
+              "name": "Blog",
+              "url": "https://medium.com/codedotgov"
+            },
+            {
+              "name": "LinkedIn",
+              "url": "https://www.linkedin.com/company/code-gov"
+            },
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/codedotgov"
+            },
+            {
+              "name": "Contact Us",
+              "url": "mailto:code@gsa.gov"
+            }
+          ]
+        }
+      ]
+    },
+    "home": {
+      "banner": {
+        "motto": "Sharing America's Code",
+        "subtitle": "Unlock the tremendous potential of the Federal Government’s software.",
+        "help_wanted": {
+          "title": "Ready. Set. Code!",
+          "description": "Whether you are a beginner or an experienced coder, join the open source community. Help improve America's Code.",
+          "button": "Explore Open Tasks"
+        },
+        "search_description_heading": "Find Code",
+        "search_description_text": "Search for federal open source software projects and usable code",
+        "search_description_text_mobile": "Find Code",
+        "search_placeholder_text": "e.g. JavaScript, NASA, web standards",
+        "browse_by_text": "Browse by Agency",
+        "issue_url": "https://github.com/GSA/code-gov-front-end/issues",
+        "newsletter_url": "https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_5"
+      },
+      "aboutus": "Code.gov is the federal government's platform for sharing America's open source software",
+      "mission": "Our mission is to help agency partners and developers save money and increase quality by promoting code reuse and educating and connecting the open source community",
+      "vision": "Serve as the community leader in driving code reuse and open source development to decrease code spend while increasing code quality",
+      "explore": [
+        {
+          "title": "Developers",
+          "description": "The Code.gov website is developed publicly on GitHub. Learn how to <a href='https://github.com/GSA/code-gov/blob/master/README.md' target='_blank' rel='noopener noreferrer'>contribute here</a>. Help improve America's Code by exploring projects.",
+          "links": [
+            {
+              "name": "Explore Projects",
+              "url": "/agencies"
+            }
+          ]
+        },
+        {
+          "title": "Connect with Us",
+          "description": "Have questions or feedback? <a href='https://github.com/GSA/code-gov-front-end/issues/new/choose' target='_blank' rel='noopener noreferrer'>Open an issue</a> on our open source repository.<br><br>Want to receive our quarterly newsletter?",
+          "links": [
+            {
+              "name": "Sign Up Here",
+              "url": "https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_5"
+            }
+          ]
+        },
+        {
+          "title": "Agency Partners",
+          "description": "Federal agency partners use Code.gov to share usable open source code, promote open source projects, and track compliance with federal open source policy.",
+          "links": [
+            {
+              "name": "Agency Compliance",
+              "url": "/agency-compliance/compliance/dashboard"
+            }
+          ]
+        }
+      ],
+      "news": [
+        {
+          "title": "Federal Source Code Summit: Towards a Source Code Community",
+          "description": "Code.gov will host its first annual Federal Source Code Summit...",
+          "url": "https://digital.gov/event/2020/10/08/federal-source-code-summit-building-coding/",
+          "date": "10/08/2020",
+          "image": "/assets/img/news/summit.jpeg",
+          "alt": "Federal Source Code Summit"
+        },
+        {
+          "title": "Front-End Updates Provide Greater Accessibility for America’s Code",
+          "description": "Last month we celebrated the 30th anniversary of the Americans with Disabilities Act...",
+          "url": "https://medium.com/codedotgov/all-access-code-gov-website-front-end-updates-provide-greater-accessibility-for-americas-code-e00fc5e76163",
+          "date": "08/27/2020",
+          "image": "/assets/img/news/accessibility.jpeg",
+          "alt": "Frontend Updates Improve Accessibility"
+        },
+        {
+          "title": "Better Know an Engineer: Rayvn Manuel",
+          "description": "We’re back with another installment of Better Know an Engineer...",
+          "url": "https://medium.com/codedotgov/code-gov-better-know-an-engineer-rayvn-manuel-46188c95218b",
+          "date": "08/13/2020",
+          "image": "/assets/img/news/rayvn.jpeg",
+          "alt": "Know an Engineer"
+        }
+      ],
+      "about": [
+        {
+          "title": "About Us",
+          "description": "Code.gov is on track to become the nation’s primary platform for sharing America’s code.  Find out how we’ll get there.",
+          "link": "/about/overview/introduction",
+          "image": "/assets/img/icons/info_bl.png"
+        },
+        {
+          "title": "Policy Info",
+          "description": "The Federal Source Code Policy helps government agencies reduce duplicative software development and save taxpayer dollars.",
+          "link": "/policy-guide/introduction",
+          "image": "/assets/img/icons/policy_bl.png"
+        },
+        {
+          "title": "Progress Report",
+          "description": "Government agencies are working hard to unlock the potential of code sharing and collaboration. Here’s a quick snapshot of their progress.",
+          "link": "/about/compliance/dashboard",
+          "image": "/assets/img/icons/check_bl.png"
+        }
+      ],
+      "featured": [
+        {
+          "short_name": "WNTR",
+          "verbose_name": "Water Network Tool for Resilience",
+          "author": "Environmental Protection Agency",
+          "description": "A python package designed to simulate and analyze resilience of water distribution networks.",
+          "image": "/assets/img/featured-projects/pipes4.png",
+          "alt": "A network of pipes with a red, yellow and green valve and a meter gauge",
+          "links": [
+            {
+              "name": "View Project",
+              "url": "/projects/doe_sandia_national_laboratories_snl_water_network_tool_for_resilience_v_1_0"
+            },
+            {
+              "name": "Go to Repo",
+              "url": "https://github.com/usepa/wntr"
+            }
+          ]
+        },
+        {
+          "short_name": "ITS ODE",
+          "verbose_name": "Intelligent Transportation Systems Operational Data Environment",
+          "author": "Department of Transportation",
+          "description": "A real-time virtual data router that ingests and processes operational data from various connected devices including vehicles, infrastructure, and traffic management centers and distributes it to other devices and subscribing transportation management applications.",
+          "image": "/assets/img/featured-projects/smartcity4.png",
+          "alt": "Cartoon truck navigating windy road with caution sign and wireless towers",
+          "links": [
+            {
+              "name": "View Project",
+              "url": "/projects/dot_fhwa_intelligent_transportation_systems_operational_data_environment_its_ode_"
+            },
+            {
+              "name": "Go to Repo",
+              "url": "https://github.com/usdot-jpo-ode/jpo-ode"
+            }
+          ]
+        },
+        {
+          "short_name": "WALKOFF",
+          "verbose_name": "",
+          "author": "National Security Agency",
+          "description": "Enables security teams to integrate apps, workflows, and analytics tools that would otherwise need to be created from scratch.",
+          "image": "/assets/img/featured-projects/WALKOFF.png",
+          "alt": "Cartoon hand pressing buttons connected to phone and laptop",
+          "links": [
+            {
+              "name": "View Project",
+              "url": "/projects/nsa_walkoff"
+            },
+            {
+              "name": "Go to Repo",
+              "url": "https://github.com/iadgov/WALKOFF"
+            }
+          ]
+        }
+      ],
+      "press": {
+        "quote": "It’s the latest in a long line of high-profile victories for the open source movement.",
+        "attribution": {
+          "image": "assets/img/logos/press/wired.svg",
+          "alt": "wired magazine",
+          "url": "https://www.wired.com/2016/08/open-source-won-now/"
+        },
+        "links": [
+          {
+            "image": "assets/img/logos/press/techcrunch.jpg",
+            "alt": "techcrunch",
+            "url": "https://techcrunch.com/2016/08/08/the-white-house-just-released-the-federal-source-code-policy-to-help-government-agencies-go-open-source/"
+          },
+          {
+            "image": "assets/img/logos/press/pcmag.png",
+            "alt": "pc magazine",
+            "url": "http://www.pcmag.com/news/346860/white-house-releases-open-source-software-policy"
+          },
+          {
+            "image": "assets/img/logos/press/fcw.png",
+            "alt": "federal computer week",
+            "url": "https://fcw.com/articles/2016/08/08/open-source-rockwell.aspx"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "links": [
+        {
+          "name": "About",
+          "url": "/about"
+        },
+        {
+          "name": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "name": "FOIA",
+          "url": "https://www.gsa.gov/reference/freedom-of-information-act-foia"
+        },
+        {
+          "name": "Accessibility",
+          "url": "https://www.gsa.gov/website-information/website-policies#accessibility"
+        },
+        {
+          "name": "USA.GOV",
+          "url": "https://www.usa.gov/"
+        }
+      ],
+      "logos": [
+        {
+          "image": "/assets/img/logos/GSA.png",
+          "name": "U.S. General Services Administration",
+          "url": "https://www.gsa.gov/"
+        }
+      ],
+      "socials": [
+        {
+          "name": "Code.gov on GitHub",
+          "icon": "icon icon-github-circled",
+          "url": "https://github.com/GSA/code-gov"
+        },
+        {
+          "name": "Code.gov on Twitter",
+          "icon": "icon icon-twitter",
+          "url": "https://www.twitter.com/codedotgov"
+        },
+        {
+          "name": "Code.gov on Medium",
+          "icon": "icon icon-medium",
+          "url": "https://medium.com/codedotgov"
+        },
+        {
+          "name": "Code.gov on LinkedIn",
+          "icon": "icon icon-linkedin-squared",
+          "url": "https://www.linkedin.com/company/code-gov/"
+        }
+      ]
+    },
+    "browse_projects": {
+      "browse_by_text": "Browse by Agency"
+    },
+    "help_wanted": {
+      "title": "Open Tasks",
+      "subtitle": "Ready. Set. Code!"
+    },
+    "roadmap": {
+      "overview": [
+        "At Code.gov, we know it’s important to keep an open dialogue with our users. That’s why we’re sharing our plans for the future through this Development Roadmap (aka Roadmap). Hopefully, it provides a better understanding of our priorities for the platform.",
+        "The Development Roadmap is organized into three categories – Near-term, Mid-term, and Long-term. Priorities are sorted into roadmap categories based on feedback we receive during user interviews. Dependencies and resources are also factors that affect placement on the roadmap. If you want to join a Code.gov user testing group, please email us at <a href='mailto:code@gsa.gov'>Code@gsa.gov</a>.",
+        "Last updated: 4/17/2020"
+      ],
+      "near": [
+        {
+          "name": "Build out the Federal Source Code Toolkit",
+          "status": "In Progress"
+        },
+        {
+          "name": "Migration of web components to React components",
+          "status": "In Progress"
+        },
+        {
+          "name": "Continue enhancing automated testing across site",
+          "status": "In Progress"
+        },
+        {
+          "name": "SSP annual review and update (for API ATO)",
+          "status": "null"
+        }
+      ],
+      "mid": [
+        {
+          "name": "Complete USWDS 2.0 migration (80% complete)",
+          "status": "In Progress"
+        },
+        {
+          "name": "Public engagement metrics (Phase 1: Pre-site deployment)",
+          "status": "In Progress"
+        },
+        {
+          "name": "Explore new site design ideas",
+          "status": "null"
+        },
+        {
+          "name": "Find new solution for code quality reviews",
+          "status": "null"
+        },
+        {
+          "name": "Automate sitemap generation",
+          "status": "null"
+        }
+      ],
+      "long": [
+        {
+          "name": "Metadata schema update",
+          "status": "null"
+        },
+        {
+          "name": "New validator tool w/ new schema",
+          "status": "null"
+        },
+        {
+          "name": "Agency compliance update (replaces IDC metrics)",
+          "status": "null"
+        },
+        {
+          "name": "Website search capabilities, integration w/ Search.gov",
+          "status": "null"
+        },
+        {
+          "name": "Public engagement metrics (Phase 2: Site deployment)",
+          "status": "null"
+        }
+      ],
+      "disclaimer": "This Development Roadmap (Roadmap) is for informational purposes only. The Code.gov team will update the Roadmap as frequently as possible but it is subject to change at any time. The information presented by the Roadmap should not be used for planning purposes. The information presented in the Roadmap does not represent a solicitation or similar contract vehicle. All items in the Roadmap will be developed and released at the sole discretion of Code.gov and the U.S. General Services Administration."
+    }
+  },
+  "images": {
+    "background": "./assets/img/logos/code-gov-light.svg"
+  }
+}

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - SearchBox render should render correctly 1`] = `
+<form
+  className="usa-search"
+  onSubmit={[Function]}
+  role="search"
+>
+  <label
+    className="usa-sr-only"
+    htmlFor="search-field"
+  >
+    Search Projects
+  </label>
+  <input
+    className="usa-input text-italic text-center font-body-3xs radius-left-md borderless"
+    data-testid="input-search-box"
+    id="search-field"
+    name="search"
+    onChange={[Function]}
+    placeholder="test-placholder"
+    type="input"
+    value="test-value"
+  />
+  <button
+    className="usa-button text-center font-body-sm"
+    data-testid="button-search-box"
+    type="submit"
+  >
+    <span
+      className="usa-search__submit-text"
+    >
+      Go
+    </span>
+  </button>
+</form>
+`;

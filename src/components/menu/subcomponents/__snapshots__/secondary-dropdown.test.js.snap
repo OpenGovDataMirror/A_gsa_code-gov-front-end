@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - Menu - SecondaryDropdown should render correctly 1`] = `
+<ul
+  className="usa-nav__submenu"
+  hidden={true}
+  id="option-name-menu"
+>
+  <li
+    className="usa-nav__submenu-item"
+    key="/link-1-url"
+  >
+    <LinkPart
+      name="link-1"
+      onClick={[MockFunction]}
+      url="/link-1-url"
+    />
+  </li>
+  <li
+    className="usa-nav__submenu-item"
+    key="http://link-2-url"
+  >
+    <LinkPart
+      name="link-2"
+      onClick={[MockFunction]}
+      url="http://link-2-url"
+    />
+  </li>
+  <li
+    className="usa-nav__submenu-item"
+    key="mailto:link-3-url"
+  >
+    <LinkPart
+      name="link-3"
+      onClick={[MockFunction]}
+      url="mailto:link-3-url"
+    />
+  </li>
+</ul>
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers - HomeBanner mapStateToProps should return the correct properties 1`] = `
+Object {
+  "motto": "Sharing America's Code",
+  "subtitle": "Unlock the tremendous potential of the Federal Government’s software.",
+}
+`

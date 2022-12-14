@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - OpenTasks render should render correctly 1`] = `
+<main
+  className="search-results-content"
+  id="main-content"
+>
+  <Connect(SiteBanner)
+    title="Open Tasks"
+  />
+  <Breadcrumbs
+    crumbs={
+      Array [
+        Object {
+          "text": "Home",
+          "to": "/",
+        },
+        Object {
+          "text": "Open Tasks",
+        },
+      ]
+    }
+  />
+  <div
+    className="grid-container"
+  >
+    <div
+      className="tablet:grid-col-3"
+    />
+    <p
+      className="repos-count font-heading-lg text-bold margin-y-105"
+      key="0"
+    >
+      There are 2 open tasks.
+    </p>
+  </div>
+  <div
+    className="grid-container"
+  >
+    <div
+      className="grid-row grid-gap"
+    >
+      <div
+        className="tablet-lg:grid-col-3 margin-top-105"
+        id="filter-boxes-section"
+      >
+        <h2
+          className="margin-bottom-2"
+        >
+          Filter
+        </h2>
+        <FilterBoxes
+          boxes={
+            Array [
+              "box-1",
+              "box-2",
+            ]
+          }
+          config={
+            Array [
+              Array [
+                "Federal Agency",
+                "agencies",
+              ],
+              Array [
+                "Skill Level",
+                "skillLevels",
+              ],
+              Array [
+                "Time Required",
+                "timeRequired",
+              ],
+              Array [
+                "Type",
+                "categories",
+              ],
+            ]
+          }
+          onFilterBoxChange={[Function]}
+        />
+      </div>
+      <div
+        className="tablet-lg:grid-col-9"
+        id="filter-results-section"
+      >
+        <div
+          className="grid-row tablet-lg:margin-top-105 margin-bottom-1 margin-top-4"
+        >
+          <h2>
+            Explore Open Tasks
+          </h2>
+        </div>
+        <_default
+          filters={
+            Array [
+              "filter-1",
+              "filter-2",
+            ]
+          }
+          onClick={[Function]}
+        />
+        <div
+          className="card-list"
+        >
+          <ul
+            className="usa-card-group usa-card-group margin-top-2"
+          >
+            <TaskCardComponent
+              key="task-1"
+              task={
+                Object {
+                  "id": "task-1",
+                }
+              }
+            />
+            <TaskCardComponent
+              key="task-2"
+              task={
+                Object {
+                  "id": "task-2",
+                }
+              }
+            />
+          </ul>
+          <Pagination
+            count={2}
+            page={1}
+            pagesize={2}
+            updatePage={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;

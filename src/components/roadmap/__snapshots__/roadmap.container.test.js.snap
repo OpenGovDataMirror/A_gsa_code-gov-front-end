@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers - Roadmap mapStateToProps should return the correct properties 1`] = `
+Object {
+  "disclaimer": "This Development Roadmap (Roadmap) is for informational purposes only. The Code.gov team will update the Roadmap as frequently as possible but it is subject to change at any time. The information presented by the Roadmap should not be used for planning purposes. The information presented in the Roadmap does not represent a solicitation or similar contract vehicle. All items in the Roadmap will be developed and released at the sole discretion of Code.gov and the U.S. General Services Administration.",
+  "long": Array [
+    Object {
+      "name": "Metadata schema update",
+      "status": "null",
+    },
+    Object {
+      "name": "New validator tool w/ new schema",
+      "status": "null",
+    },
+    Object {
+      "name": "Agency compliance update (replaces IDC metrics)",
+      "status": "null",
+    },
+    Object {
+      "name": "Website search capabilities, integration w/ Search.gov",
+      "status": "null",
+    },
+    Object {
+      "name": "Public engagement metrics (Phase 2: Site deployment)",
+      "status": "null",
+    },
+  ],
+  "mid": Array [
+    Object {
+      "name": "Complete USWDS 2.0 migration (80% complete)",
+      "status": "In Progress",
+    },
+    Object {
+      "name": "Public engagement metrics (Phase 1: Pre-site deployment)",
+      "status": "In Progress",
+    },
+    Object {
+      "name": "Explore new site design ideas",
+      "status": "null",
+    },
+    Object {
+      "name": "Find new solution for code quality reviews",
+      "status": "null",
+    },
+    Object {
+      "name": "Automate sitemap generation",
+      "status": "null",
+    },
+  ],
+  "near": Array [
+    Object {
+      "name": "Build out the Federal Source Code Toolkit",
+      "status": "In Progress",
+    },
+    Object {
+      "name": "Migration of web components to React components",
+      "status": "In Progress",
+    },
+    Object {
+      "name": "Continue enhancing automated testing across site",
+      "status": "In Progress",
+    },
+    Object {
+      "name": "SSP annual review and update (for API ATO)",
+      "status": "null",
+    },
+  ],
+  "overview": Array [
+    "At Code.gov, we know it’s important to keep an open dialogue with our users. That’s why we’re sharing our plans for the future through this Development Roadmap (aka Roadmap). Hopefully, it provides a better understanding of our priorities for the platform.",
+    "The Development Roadmap is organized into three categories – Near-term, Mid-term, and Long-term. Priorities are sorted into roadmap categories based on feedback we receive during user interviews. Dependencies and resources are also factors that affect placement on the roadmap. If you want to join a Code.gov user testing group, please email us at <a href='mailto:code@gsa.gov'>Code@gsa.gov</a>.",
+    "Last updated: 4/17/2020",
+  ],
+}
+`

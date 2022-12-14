@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - Home render should render correctly 1`] = `
+<Fragment>
+  <main
+    id="main-content"
+  >
+    <Connect(HomeBanner) />
+    <div
+      className="grid-container"
+    >
+      <Connect(HomeExplore) />
+      <div
+        className="grid-row grid-gap"
+      >
+        <Connect(HomeAbout) />
+        <Connect(HomeNews) />
+      </div>
+    </div>
+  </main>
+</Fragment>
+`;

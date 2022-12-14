@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers - Menu mapStateToProps should return the correct properties 1`] = `
+Object {
+  "color": "white",
+  "logoDark": "/assets/img/logos/code-gov-dark.svg",
+  "logoLight": "/assets/img/logos/code-gov-light.svg",
+  "menu": Array [
+    Object {
+      "name": "AGENCIES",
+      "url": "/agencies",
+    },
+    Object {
+      "links": Array [
+        Object {
+          "name": "Agency Compliance",
+          "url": "/agency-compliance/compliance/dashboard",
+        },
+        Object {
+          "name": "How to Procure Software",
+          "url": "/agency-compliance/compliance/procurement",
+        },
+        Object {
+          "name": "How to Inventory Code",
+          "url": "/agency-compliance/compliance/inventory-code",
+        },
+      ],
+      "name": "GUIDANCE",
+    },
+  ],
+  "onHomePage": true,
+  "searchDropdown": "test-search-dropdown",
+  "siteTitle": "code.gov",
+}
+`;

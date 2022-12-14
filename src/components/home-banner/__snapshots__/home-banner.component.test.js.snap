@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - HomeBanner should render correctly 1`] = `
+<section
+  id="banner-home"
+>
+  <div
+    className="bg-primary text-center"
+  >
+    <div
+      className="padding-y-205 tablet:padding-y-4"
+    >
+      <div
+        className="font-heading-xl tablet:font-heading-2xl text-white line-height-sans-2"
+      >
+        test-motto
+      </div>
+      <div
+        className="font-heading-lg text-white desktop:display-block display-none margin-top-1"
+      >
+        test-subtitle
+      </div>
+    </div>
+  </div>
+</section>
+`;

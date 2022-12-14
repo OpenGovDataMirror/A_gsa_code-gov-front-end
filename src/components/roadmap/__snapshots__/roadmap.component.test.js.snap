@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - Roadmap - Column should render correctly 1`] = `
+<div
+  className="tablet:grid-col"
+>
+  <div>
+    <h3
+      className="bg-base-lighter padding-y-2 text-center text-bold text-base-darker border-base-lighter font-body-md radius-top-lg border-1px border-bottom-0"
+    >
+      test-phase
+    </h3>
+    <ul
+      className="radius-bottom-lg margin-top-0 padding-y-1 padding-x-05 border-1px border-top-0 border-base-lighter"
+    >
+      <Row
+        key="todo-1"
+        todo={
+          Object {
+            "name": "todo-1",
+            "status": "In Progress",
+          }
+        }
+      />
+      <Row
+        key="todo-2"
+        todo={
+          Object {
+            "name": "todo-2",
+            "status": "Released",
+          }
+        }
+      />
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`components - Roadmap - Row should render correctly 1`] = `
+<li
+  className="margin-bottom-0"
+>
+  <div
+    className="grid-row"
+  >
+    <div
+      className="grid-col-1 padding-top-1 padding-left-2"
+    >
+      <i
+        aria-label="released"
+        className="icon icon-ok text-green"
+      />
+    </div>
+    <div
+      className="grid-col-11 padding-y-1 padding-x-1 font-body-3xs text-base-dark padding-left-3"
+    >
+      todo-name
+    </div>
+  </div>
+</li>
+`;
+
+exports[`components - Roadmap render should render correctly 1`] = `
+<main
+  id="main-content"
+>
+  <Connect(SiteBanner)
+    title="Roadmap"
+  />
+  <Breadcrumbs
+    crumbs={
+      Array [
+        Object {
+          "text": "Home",
+          "to": "/",
+        },
+        Object {
+          "text": "Roadmap",
+        },
+      ]
+    }
+  />
+  <div
+    className="grid-container"
+  >
+    <div
+      className="margin-top-1"
+    >
+      <h2>
+        Overview
+      </h2>
+      <p
+        className="maxw-none"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "overview-1",
+          }
+        }
+        key="overview-1"
+      />
+      <p
+        className="maxw-none"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "overview-2",
+          }
+        }
+        key="overview-2"
+      />
+    </div>
+    <div>
+      <h2
+        className="margin-top-4"
+      >
+        Roadmap
+      </h2>
+    </div>
+    <section
+      className="grid-container padding-0"
+    >
+      <div
+        className="grid-row grid-gap padding-top-3"
+      >
+        <Column
+          phase="Near-term"
+          todos={
+            Array [
+              Object {
+                "name": "near-1",
+                "status": "In Progress",
+              },
+              Object {
+                "name": "near-1",
+                "status": "Released",
+              },
+            ]
+          }
+        />
+        <Column
+          phase="Mid-term"
+          todos={
+            Array [
+              Object {
+                "name": "mid-1",
+                "status": "Released",
+              },
+              Object {
+                "name": "mid-1",
+                "status": "Released",
+              },
+            ]
+          }
+        />
+        <Column
+          phase="Long-term"
+          todos={
+            Array [
+              Object {
+                "name": "long-1",
+                "status": null,
+              },
+              Object {
+                "name": "long-1",
+                "status": "In Progress",
+              },
+            ]
+          }
+        />
+      </div>
+    </section>
+    <section
+      aria-hidden="true"
+      className="grid-container margin-top-205 margin-bottom-5 padding-0"
+    >
+      <div
+        className="grid-row border-0 padding-bottom-0"
+      >
+        <i
+          className="icon icon-ok text-green"
+        />
+        <span
+          className="border-0 font-body-3xs padding-left-1 padding-bottom-0 text-base-dark padding-top-1px"
+        >
+          Released
+        </span>
+      </div>
+      <div
+        className="grid-row border-0 padding-top-1"
+      >
+        <i
+          className="icon icon-circle text-accent-warm-light"
+        />
+        <span
+          className="border-0 font-body-3xs padding-left-1 text-base-dark padding-top-1px"
+        >
+          In Progress
+        </span>
+      </div>
+    </section>
+    <div
+      className="margin-y-3"
+    >
+      <h2>
+        Disclaimer
+      </h2>
+      <p
+        className="maxw-none"
+      >
+        test-disclaimer
+      </p>
+    </div>
+  </div>
+</main>
+`;

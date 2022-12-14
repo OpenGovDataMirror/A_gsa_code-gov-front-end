@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - Menu - PrimaryMenuOption should render correctly 1`] = `
+<button
+  aria-controls="option-name-menu"
+  aria-expanded="false"
+  className="usa-accordion__button usa-nav__link"
+  onClick={[Function]}
+>
+  <span>
+    option-name
+  </span>
+</button>
+`;

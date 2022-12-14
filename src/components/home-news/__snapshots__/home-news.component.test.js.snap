@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components - HomeNews should render correctly 1`] = `
+<section
+  className="tablet:grid-col-6"
+>
+  <div
+    className="bg-primary-lighter"
+  >
+    <header
+      className="padding-x-4  padding-top-6"
+    >
+      <h2
+        className="font-heading-l text-primary-darker text-center"
+      >
+        Open Source News & Events
+      </h2>
+    </header>
+    <ul
+      className="padding-x-1 padding-bottom-2"
+    >
+      <li
+        className="bg-white grid-row margin-1 padding-2"
+        key="t1"
+      >
+        <div
+          className="flex-1"
+        >
+          <h3
+            className="font-heading-sm text-bold"
+          >
+            <a
+              href="u1"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              t1
+            </a>
+          </h3>
+          <p
+            className="margin-bottom-0 font-body-2xs margin-top-105"
+          >
+            d1
+          </p>
+        </div>
+        <picture
+          className="order-first padding-right-2"
+        >
+          <source
+            media="min-width: 800px"
+            srcSet="i1"
+          />
+          <img
+            alt="alt1"
+            className="maxw-15 margin-right-1"
+            src="i1"
+          />
+        </picture>
+      </li>
+      <li
+        className="bg-white grid-row margin-1 padding-2"
+        key="t2"
+      >
+        <div
+          className="flex-1"
+        >
+          <h3
+            className="font-heading-sm text-bold"
+          >
+            <a
+              href="u2"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              t2
+            </a>
+          </h3>
+          <p
+            className="margin-bottom-0 font-body-2xs margin-top-105"
+          >
+            d2
+          </p>
+        </div>
+        <picture
+          className="order-first padding-right-2"
+        >
+          <source
+            media="min-width: 800px"
+            srcSet="i2"
+          />
+          <img
+            alt="alt2"
+            className="maxw-15 margin-right-1"
+            src="i2"
+          />
+        </picture>
+      </li>
+      <li
+        className="bg-white grid-row margin-1 padding-2"
+        key="t3"
+      >
+        <div
+          className="flex-1"
+        >
+          <h3
+            className="font-heading-sm text-bold"
+          >
+            <a
+              href="u3"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              t3
+            </a>
+          </h3>
+          <p
+            className="margin-bottom-0 font-body-2xs margin-top-105"
+          >
+            d3
+          </p>
+        </div>
+        <picture
+          className="order-first padding-right-2"
+        >
+          <source
+            media="min-width: 800px"
+            srcSet="i3"
+          />
+          <img
+            alt="alt3"
+            className="maxw-15 margin-right-1"
+            src="i3"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+`;

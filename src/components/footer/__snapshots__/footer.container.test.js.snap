@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers - Footer mapStateToProps should return the correct properties 1`] = `
+Object {
+  "color": "white",
+  "links": Array [
+    Object {
+      "name": "About",
+      "url": "/about",
+    },
+    Object {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy",
+    },
+  ],
+  "logos": Array [
+    Object {
+      "image": "/assets/img/logos/GSA.png",
+      "name": "U.S. General Services Administration",
+      "url": "https://www.gsa.gov/",
+    },
+  ],
+  "socials": Array [
+    Object {
+      "icon": "icon icon-github-circled",
+      "name": "Code.gov on GitHub",
+      "url": "https://github.com/GSA/code-gov",
+    },
+    Object {
+      "icon": "icon icon-twitter",
+      "name": "Code.gov on Twitter",
+      "url": "https://www.twitter.com/codedotgov",
+    },
+    Object {
+      "icon": "icon icon-medium",
+      "name": "Code.gov on Medium",
+      "url": "https://medium.com/codedotgov",
+    },
+    Object {
+      "icon": "icon icon-linkedin-squared",
+      "name": "Code.gov on LinkedIn",
+      "url": "https://www.linkedin.com/company/code-gov/",
+    },
+  ],
+}
+`;

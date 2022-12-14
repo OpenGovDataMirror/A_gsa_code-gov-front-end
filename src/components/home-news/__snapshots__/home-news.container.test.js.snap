@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers - HomeNews mapStateToProps should return the correct properties 1`] = `
+Object {
+  "newsItems": Array [
+    Object {
+      "alt": "Federal Source Code Summit",
+      "date": "10/08/2020",
+      "description": "Code.gov will host its first annual Federal Source Code Summit...",
+      "image": "/assets/img/news/summit.jpeg",
+      "title": "Federal Source Code Summit: Towards a Source Code Community",
+      "url": "https://digital.gov/event/2020/10/08/federal-source-code-summit-building-coding/",
+    },
+    Object {
+      "alt": "Frontend Updates Improve Accessibility",
+      "date": "08/27/2020",
+      "description": "Last month we celebrated the 30th anniversary of the Americans with Disabilities Act...",
+      "image": "/assets/img/news/accessibility.jpeg",
+      "title": "Front-End Updates Provide Greater Accessibility for America’s Code",
+      "url": "https://medium.com/codedotgov/all-access-code-gov-website-front-end-updates-provide-greater-accessibility-for-americas-code-e00fc5e76163",
+    },
+    Object {
+      "alt": "Know an Engineer",
+      "date": "08/13/2020",
+      "description": "We’re back with another installment of Better Know an Engineer...",
+      "image": "/assets/img/news/rayvn.jpeg",
+      "title": "Better Know an Engineer: Rayvn Manuel",
+      "url": "https://medium.com/codedotgov/code-gov-better-know-an-engineer-rayvn-manuel-46188c95218b",
+    },
+  ],
+}
+`;
